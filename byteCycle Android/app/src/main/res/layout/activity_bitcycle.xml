@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:src="@drawable/background"
+        android:scaleType="centerCrop"
+        android:foreground="#ffffff" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_vertical|top"
+        android:src="@drawable/logo"
+        android:scaleType="fitEnd"
+        android:adjustViewBounds="true"
+        android:padding="50dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Connect to bike!"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal|bottom"
+        style="@android:style/Holo.ButtonBar"
+        android:background="#086ca6"
+        android:textColor="#ffffff"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|bottom"
+        android:paddingTop="180dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Longitude: 0.000000000"
+            android:id="@+id/longitude"
+            android:layout_gravity="center_horizontal"
+            android:nestedScrollingEnabled="true"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Latitude: 0.000000000"
+            android:id="@+id/latitude"
+            android:layout_gravity="center_horizontal"
+            android:nestedScrollingEnabled="true"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Battery Level: 93 / 100"
+            android:id="@+id/battery"
+            android:layout_gravity="center_horizontal"
+            android:nestedScrollingEnabled="true"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Light Level: 10 / 10"
+            android:id="@+id/light"
+            android:layout_gravity="center_horizontal"
+            android:nestedScrollingEnabled="true"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Temperature: Low"
+            android:id="@+id/temperature"
+            android:layout_gravity="center_horizontal"
+            android:nestedScrollingEnabled="true"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Speed: 0 K/H"
+            android:id="@+id/speed"
+            android:layout_gravity="center_horizontal"
+            android:nestedScrollingEnabled="true"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="http://bitcycle.tk/Zq25a"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="100px"
+            android:textColor="#aaaaff"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+
+</FrameLayout>
